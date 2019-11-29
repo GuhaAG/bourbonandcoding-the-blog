@@ -1,0 +1,51 @@
+nav:
+  Home: /
+  About: http://arghyaguha.com
+  Writing: /archives/
+  Code: https://github.com/GuhaAG/bourbonandcoding
+
+projects_url: https://github.com/GuhaAG/bourbonandcoding
+
+customize:
+    gravatar:
+        email: mailbox@bourbonandcoding.com
+    logo:
+        enabled: true
+        width: 50
+        height: 50
+        url: /images/logo.png
+        gravatar: false
+    favicon:
+      # eg. generate with http://realfavicongenerator.net/
+      desktop:
+        url: /images/favicon.ico
+        gravatar: false
+      android:
+        url: /images/favicon-192x192.png
+        gravator: false
+      apple:
+        url: /images/apple-touch-icon.png
+        gravator: false
+    social_links:
+        github: https://github.com/GuhaAG/bourbonandcoding
+        twitter: https://twitter.com/CodingBourbon        
+        linkedin: https://www.linkedin.com/in/arghya-guha-2a318253/
+    show_all_posts: true
+    post_count: 5
+    highlight: monokai
+
+# RSS
+rss: false
+
+# Plugins
+plugins:
+    disqus_shortname: # Disqus Comments Shortname
+    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:

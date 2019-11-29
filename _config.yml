@@ -97,9 +97,4 @@ theme: cactus-light
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-
-#To stop code getting an extra newline in between every line
-# refer https://fedidat.com/90-hexo-markdown-line-breaks/
-marked:
-  gfm: true
-  breaks: false
+  
