@@ -24,7 +24,7 @@ Check out your brand spanking new React web app at [http://localhost:3000/]
 ### Docker
 Now let's create a `Dockerfile` in the root of the app.
 
-```sh
+```docker
 # build stage
 FROM node:lts-alpine as build-stage
 WORKDIR /app
@@ -58,9 +58,9 @@ Now we run it
 
 ```sh
 docker run -p 3000:80 -d bourbonandcoding/react-docker-example:latest
-#              ^       ^                       ^    
-#              |    detached mode          tag name    
-#       host machine port : docker port 
+#              ^       ^                       ^
+#              |    detached mode          tag name
+#       host machine port : docker port
 ```
 
 - Detached mode, shown by the option `--detach` or `-d`, means that a Docker container runs in the background. It does not receive input or display output.
