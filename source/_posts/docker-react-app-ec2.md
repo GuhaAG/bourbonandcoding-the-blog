@@ -99,7 +99,7 @@ Now we can push it to our dockerhub public repository
 docker push <dockerhub-username-here>/bourbonandcoding:v1
 ```
 
-Now the image is pushed to a public repository accessible to everyone. We are going to be pulling it to our ec2 instance next.
+Now the image is pushed to a public repository accessible to everyone. We are going to be pulling it on our ec2 instance next.
 
 >If you don't want to share your image with the world, you can also use private repositories. You get 1 private repository free with your dockerhub account and can pay for more.
 
@@ -121,7 +121,7 @@ That's it, since we bound it to port `80` the app should be running on the publi
 > If `localhost` is coded into your server configuration, you have to change it to `0.0.0.0` to bind it to the public IP.
 
 #### Next Steps
-If you want to share you shiny new web app with the world wide web, you would want to get a static IP for your instance, allow TCP connections to it by changing the security group configuration and perhaps even get a domain name and associate it to the IP. I won't cover any of that in this post but buy me a bourbon or two and i might be convinced to make another post all about that. 
+If you want to share your shiny new web app with the world wide web, you would want to get a static IP for your instance, allow TCP connections to it by changing the security group configuration and perhaps even get a domain name and associate it to the IP. I won't cover any of that in this post but buy me a bourbon or two and i might be convinced to make another post all about that. 
 
 Until then cheers, and keep coding !
 
